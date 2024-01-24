@@ -1,1 +1,0 @@
-document.querySelector(".website__right").innerHTML = "Copyright © " + (new Date().getFullYear()) +", Non-Dynamic Studios      | "
