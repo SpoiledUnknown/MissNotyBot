@@ -27,7 +27,7 @@ function MobileNavigation() {
         }
     })
 
-    mobileLinks.forEach(link => {
+    mobileLinks.forEach((link:any) => {
         link.addEventListener('click', () => {
             isMobileMenuOpen = false
             mobileNav.style.opacity = '0'
